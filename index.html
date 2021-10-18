@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Palms Sea Food</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-glyphicons.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+    <!-- #header-nav -->
+    <nav id="header-nav" class="navbar navbar-expand-md navbar-light">
+      <!-- .container -->
+      <div class="container-fluid mx-5">
+      <!-- <div class="container-fluid"> -->
+        <div class="navbar-header">
+
+          <div class="navbar-brand">
+            <a href="index.html" class="float-start d-none d-lg-block">
+              <div id="logo-img" alt="Logo image"></div>
+            </a>
+            <a href="index.html"><h1 class="mt-5 pt-3">The Palms Sea Food</h1></a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Kosher certification">
+              <span>100% "Emeralds" Seasoning</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Toggle Button -->
+        <div id="togglerIcon me-auto">
+          <button id="navbarToggle" type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsable-nav"  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <!-- End Toggle Button -->
+        
+        <!-- Nav Menu List -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <!-- #nav-list -->
+          <!-- <ul id="nav-list" class="navbar-nav me-auto mb-2 mb-lg-0"> -->
+          <ul id="nav-list" class="nav navbar-nav ">
+            <li id="navHomeButton" class="nav-item d-block d-md-none">
+              <hr id="menuLineOnTop" class="d-block d-md-none">
+              <a id="aHomeButton" class="nav-link active" aria-current="page" href="index.html">
+                <span class="glyphicon glyphicon-home"></span>
+                Home</a>
+            </li>
+            <li id="navMenuButton" class="nav-item">
+              <a id="aMenuButton" class="nav-link" href="#" onclick="$dc.loadMenuCategories();">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="d-none d-md-block"> 
+              Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="d-none d-md-block"> 
+              About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="d-none d-md-block"> 
+              Awards</a>
+            </li >
+            <!-- Phone >= sm devices  -->
+            <li id="phone" class="nav-item d-none d-md-block">
+              <a class="nav-link" href="tel:02-224-7007">
+                <span>02-224-7007</span></a><div>* We Deliver</div>
+            </li>
+            <!-- End Phone >= sm devices  -->
+          </ul>
+          <!-- #nav-list -->
+        </div>
+        <!-- End Nav Menu List -->
+      </div>
+      <!-- End .container -->
+    </nav>
+    <!-- End #header-nav -->
+  </header>
+
+  <div class="container">
+    <!-- Phone <= xsm devices  -->
+    <div id="call-btn" class="d-block d-md-none">
+      <a class="btn" href="tel:02-224-7007">
+      <span class="glyphicon glyphicon-earphone"></span>
+      02-224-7007
+      </a>
+    </div>
+    <div id="xs-deliver" class="text-center d-block d-md-none">* We Deliver</div>
+    <!-- End Phone <= xsm devices  -->
+  </div>
+
+  <!-- End Header -->
+
+  <!-- Main Home Page ----------
+  -----  Built dinamically with Snipets -->
+  <div id="main-content" class="container-fluid"></div>
+  <!-- End Main Home Page -->
+
+  <!-- Footer -->
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-md-4">
+          <span>Hours:</span><br>
+          Mon-Sun: 09:00am - 05:00pm<br>
+          Mall Locations: Until Close<br>
+          <hr class="mx-auto d-block d-md-none">
+        </section>
+        <section id="address" class="col-md-4">
+          <span>Address:</span><br>
+          7105 Reisterstown Road<br>
+          Baltimore, MD 21215
+          <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+          <hr class="mx-auto d-block d-md-none">
+        </section>
+        <section id="testimonials" class="col-md-4">
+          <p>"The best Sea Food restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+          <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright The Palms Sea Food 2016</div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

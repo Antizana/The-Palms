@@ -1,0 +1,425 @@
+body {
+  font-size: 16px;
+  /* color: #fff; */
+  color: #000;
+  background-color: #fcdfd3;
+  font-family: "Oxygen", sans-serif;
+}
+
+footer {
+  color: #fff;
+}
+/** HEADER **/
+
+#header-nav {
+  background-color: #00a86b;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 20px;
+}
+
+#logo-img {
+  background: url("../images/restaurant-logo_large.png") no-repeat;
+  width: 150px;
+  height: 150px;
+}
+
+/* .navbar-brand {
+  padding-top: 25px;
+} */
+.navbar-brand h1 {
+  /* Restaurant name */
+  font-family: "Lora", serif;
+  color: #fee101;
+  font-size: 2.16em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: 0.75;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p {
+  /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-top: 15px;
+}
+.navbar-brand p span {
+  /* Star-K */
+  vertical-align: middle;
+}
+
+/* Toggle Button */
+#navbarToggle {
+  border: 1px solid #fcdfd3;
+}
+.navbar button.navbar-toggler {
+  /* clear: both; */
+  float: right;
+  margin-top: 40px;
+}
+#togglerIcon :hover,
+#togglerIcon :focus {
+  background-color: white;
+}
+/* End Toggle Button */
+
+/* Nav Menu List */
+#collapsable-nav {
+  justify-content: right;
+}
+#navHomeButton hr {
+  margin-left: -150px;
+  margin-right: -150px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding: 0px 0px 0px 0px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #f3723a;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#phone a:hover span {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#navHomeButton .active {
+  background: #e7e7e7;
+}
+#navMenuButton .active {
+  background: #e7e7e7;
+}
+/* End Nav Menu List */
+
+/* Phone >= sm devices */
+#phone {
+  margin-top: -5px;
+}
+#phone a {
+  /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div {
+  /* We Deliver */
+  color: #fee101;
+  text-align: right;
+  padding-right: 15px;
+}
+/* End Phone >= sm devices */
+
+/* END HEADER */
+
+/* ******** FOOTER ***********/
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours,
+#address {
+  line-height: 2;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#hours > span,
+#address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #fee101;
+  font-size: 0.8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/******** END FOOTER ***********/
+
+/* HOME PAGE */
+#officePhoto .container-fluid {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 50px #c9450c;
+  border: 2px solid #c9450c;
+  margin-top: 10px;
+}
+
+#menu-tile,
+#specials-tile,
+#map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #c9450c;
+  overflow: hidden;
+}
+#menu-tile:hover,
+#specials-tile:hover,
+#map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+  background: url("../images/menu-tile.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#specials-tile {
+  background: url("../images/specials-tile.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#menu-tile span,
+#specials-tile span,
+#map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+}
+/* END HOME PAGE */
+
+/* MENU CATEGORIES PAGE */
+.category-tile {
+  position: relative;
+  border: 2px solid #c9450c;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+#main-content h2 {
+  font-size: 30px;
+}
+#menu-categories-title {
+  margin-top: 20px;
+}
+/* END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: 0.6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #c9450c;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #fee101;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+  padding-left: 20px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+.menu-item-details {
+  font-size: 0.9em;
+  font-style: italic;
+}
+.menu-item-tile hr {
+  margin: 20px auto;
+}
+/* END SINGLE CATEGORY PAGE */
+
+/********** Xtra Large devices only **********/
+/* @media (min-width: 1400px) {
+} */
+
+/********** Large devices only **********/
+/* @media (min-width: 1200px) and (max-width: 1399px) {
+} */
+
+/********** Medium devices only **********/
+/* @media (min-width: 992px) and (max-width: 1199px) {
+} */
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .navbar-brand h1 {
+    font-size: 1.7em;
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand h1 {
+    /* Restaurant name */
+    font-size: 4.5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p {
+    /* Kosher cert */
+    font-size: 0.86em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img {
+    /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #nav-list > li {
+    margin-left: -150px;
+    margin-right: -150px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 20px 0px 0;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #00a86b;
+    color: #f3723a;
+    text-decoration: none;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  #menu-tile,
+  #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;
+  }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 {
+    /* Restaurant name */
+    font-size: 6vw;
+  }
+  /* End Header */
+
+  /* Home page */
+  #menu-tile,
+  #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
