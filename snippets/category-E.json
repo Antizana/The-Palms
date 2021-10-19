@@ -1,0 +1,49 @@
+{
+  "menu_items": [
+    {
+      "id": 913,
+      "short_name": "E1",
+      "name": "Shrimps in Coconut Sauce",
+      "description": "shrimp in coconut sauce, rice, fried green plantains, salad, plaintain chips and pop corn.",
+      "price_small": "",
+      "price_large": 8.96,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 914,
+      "short_name": "E2",
+      "name": "Fish in Coconut Sauce",
+      "description": "fish in coconut sauce, rice, fried green plantains, salad, plaintain chips and pop corn.",
+      "price_small": "",
+      "price_large": 8.96,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 915,
+      "short_name": "E3",
+      "name": "Mixed Coconut Sauce",
+      "description": "mixed coconut sauce with fish and shrimps, rice, fried green plantains, salad, plaintain chips and pop corn.",
+      "price_small": "",
+      "price_large": 8.96,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 916,
+      "short_name": "E4",
+      "name": "TriMixed Coconut Sauce",
+      "description": "trimixed coconut sauce with fish, shells and shrimps, rice, fried green plantains, salad, plaintain chips and pop corn.",
+      "price_small": "",
+      "price_large": 8.96,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    }
+  ],
+  "category": {
+    "short_name": "E",
+    "name": "Coconut Sauce Dishes",
+    "special_instructions": ""
+  }
+}

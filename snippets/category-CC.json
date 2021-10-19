@@ -1,0 +1,49 @@
+{
+  "menu_items": [
+    {
+      "id": 913,
+      "short_name": "CC1",
+      "name": "Complete 1",
+      "description": "shrimp in coconut sauce, rice, fried fish fillet, salad, fried green plantain or fried ramp banana with a side of plantain chips and pop corn.",
+      "price_small": "",
+      "price_large": 9.41,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 914,
+      "short_name": "CC2",
+      "name": "Complete 2",
+      "description": "fried fish fillet, shells and rice, breaded shrimps, salad, fried green plantain or fried ramp banana with a side of plantain chips and pop corn.",
+      "price_small": "",
+      "price_large": 9.41,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 912,
+      "short_name": "CC3",
+      "name": "Complete 3",
+      "description": "fried fish fillet, shell ceviche, shrimps ceviche, salad, fried green plantain or fried ramp banana with a side of plantain chips and pop corn.",
+      "price_small": "",
+      "price_large": 9.41,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 915,
+      "short_name": "CC4",
+      "name": "Complete 4",
+      "description": "roasted shells, shrimp and rice, fried fish fillet, salad, fried green plantain or fried ramp banana with a side of plantain chips and pop corn.",
+      "price_small": "",
+      "price_large": 9.41,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    }
+  ],
+  "category": {
+    "short_name": "CC",
+    "name": "Complete Meals",
+    "special_instructions": ""
+  }
+}

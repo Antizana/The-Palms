@@ -1,0 +1,49 @@
+{
+  "menu_items": [
+    {
+      "id": 913,
+      "short_name": "C1",
+      "name": "Shrimp Ceviche",
+      "description": "shrimp ceviche with fried plantain chips and pop corn",
+      "price_small": "",
+      "price_large": 8.74,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 914,
+      "short_name": "C2",
+      "name": "Shell Ceviche",
+      "description": "shell ceviche with fried plantain chips and pop corn",
+      "price_small": "",
+      "price_large": 9.18,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 912,
+      "short_name": "C3",
+      "name": "Fish Ceviche",
+      "description": "fish ceviche with fried plantain chips and pop corn",
+      "price_small": "",
+      "price_large": 8.51,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 915,
+      "short_name": "C4",
+      "name": "Trimix Ceviche",
+      "description": "fish, shell and shrimp ceviche with fried plaints chips and pop corn",
+      "price_small": "",
+      "price_large": 8.74,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    }
+  ],
+  "category": {
+    "short_name": "C",
+    "name": "Ceviche",
+    "special_instructions": ""
+  }
+}

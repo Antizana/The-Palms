@@ -1,0 +1,59 @@
+{
+  "menu_items": [
+    {
+      "id": 913,
+      "short_name": "KM1",
+      "name": "Shrimp Ceviche Jr.",
+      "description": "shrimp ceviche Jr. with fried plantain chips and pop corn",
+      "price_small": "",
+      "price_large": 4.98,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 914,
+      "short_name": "KM2",
+      "name": "Shell Ceviche Jr.",
+      "description": "shell ceviche Jr. with fried plantain chips and pop corn",
+      "price_small": "",
+      "price_large": 4.98,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 912,
+      "short_name": "KM3",
+      "name": "Fish Ceviche Jr.",
+      "description": "fish ceviche Jr. with fried plantain chips and pop corn",
+      "price_small": "",
+      "price_large": 4.98,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 915,
+      "short_name": "KM4",
+      "name": "Fish Fillet Jr.",
+      "description": "fried fish fillet Jr. with rice, lentil stew, fried green plantains slices, salad with a side of plantain chips and pop corn",
+      "price_small": "",
+      "price_large": 4.98,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 916,
+      "short_name": "KM5",
+      "name": "Shrimp and Rice Jr.",
+      "description": "shrimp and rice Jr. with fried green plantains or fried ripe banana with a side of plantain chips and pop corn",
+      "price_small": "",
+      "price_large": 4.98,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    }
+  ],
+  "category": {
+    "short_name": "KM",
+    "name": "Kid´s Meals",
+    "special_instructions": ""
+  }
+}

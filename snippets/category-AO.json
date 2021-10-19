@@ -1,0 +1,39 @@
+{
+  "menu_items": [
+    {
+      "id": 913,
+      "short_name": "AO1",
+      "name": "Fried Green Plantains",
+      "description": "6 fried green plantains",
+      "price_small": "",
+      "price_large": 1.46,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 914,
+      "short_name": "AO2",
+      "name": "Fried Ramp Bananas",
+      "description": "6 fried ramp bananas",
+      "price_small": "",
+      "price_large": 1.46,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 915,
+      "short_name": "AO3",
+      "name": "Rice",
+      "description": "white rice",
+      "price_small": "",
+      "price_large": 1.46,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    }
+  ],
+  "category": {
+    "short_name": "AO",
+    "name": "Add Ons",
+    "special_instructions": ""
+  }
+}

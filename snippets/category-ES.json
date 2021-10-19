@@ -1,0 +1,79 @@
+{
+  "menu_items": [
+    {
+      "id": 913,
+      "short_name": "ES1",
+      "name": "Roasted Shells",
+      "description": "roasted shells with fried green plantains, salad, fried plantains slices, toasted corn and pop corn.",
+      "price_small": "",
+      "price_large": 9.63,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 914,
+      "short_name": "ES2",
+      "name": "Fish Cracklings",
+      "description": "crispy fish cracklings with fried green plantains, salad, fried plantain chips and pop corn.",
+      "price_small": "",
+      "price_large": 9.63,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 912,
+      "short_name": "ES3",
+      "name": "Shrimp Patty",
+      "description": "green plantain patty with shrimp",
+      "price_small": "",
+      "price_large": 1.79,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 915,
+      "short_name": "ES4",
+      "name": "Cheese Patty",
+      "description": "green plantain patty with cheese",
+      "price_small": "",
+      "price_large": 1.46,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 916,
+      "short_name": "ES5",
+      "name": "Special Green Plantain Dumpling Soup",
+      "description": "special green plantain dumpling soup with shrimp and fish",
+      "price_small": "",
+      "price_large": 7.84,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 917,
+      "short_name": "ES6",
+      "name": "Green Plantain Dumpling Soup",
+      "description": "special green plantain dumpling soup",
+      "price_small": "",
+      "price_large": 6.72,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 918,
+      "short_name": "ES7",
+      "name": "Seafood Soup",
+      "description": "amazing soup with shrimps, fish, squids, shells, clams, mussels and crab accompanied with fried plantain chips and pop corn.",
+      "price_small": "",
+      "price_large": 10.75,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    }
+  ],
+  "category": {
+    "short_name": "ES",
+    "name": "Entrees and Soups",
+    "special_instructions": ""
+  }
+}

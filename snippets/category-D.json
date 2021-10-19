@@ -1,0 +1,69 @@
+{
+  "menu_items": [
+    {
+      "id": 913,
+      "short_name": "D1",
+      "name": "Lemonade",
+      "description": "lemonade",
+      "price_small": "",
+      "price_large": 1.46,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 914,
+      "short_name": "D2",
+      "name": "Coca Cola Original",
+      "description": "coca cola original flavor 13oz",
+      "price_small": "",
+      "price_large": 1.46,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 915,
+      "short_name": "D3",
+      "name": "Coca Cola Light",
+      "description": "coca cola light 13oz",
+      "price_small": "",
+      "price_large": 1.46,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 916,
+      "short_name": "D4",
+      "name": "Sprite",
+      "description": "sprite 13oz",
+      "price_small": "",
+      "price_large": 1.46,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 917,
+      "short_name": "D5",
+      "name": "Fuze Tea Lemon",
+      "description": "fuze tea lemon 16oz",
+      "price_small": "",
+      "price_large": 1.46,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 918,
+      "short_name": "D6",
+      "name": "Spring Water",
+      "description": "natural Dasanu water 16oz",
+      "price_small": "",
+      "price_large": 1.46,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    }
+  ],
+  "category": {
+    "short_name": "D",
+    "name": "Drinks",
+    "special_instructions": ""
+  }
+}

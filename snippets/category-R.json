@@ -1,0 +1,79 @@
+{
+  "menu_items": [
+    {
+      "id": 913,
+      "short_name": "R1",
+      "name": "Shrimps and Rice",
+      "description": "shrimps and rice, fried green plantains, salad, plaintain chips and pop corn.",
+      "price_small": "",
+      "price_large": 8.96,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 914,
+      "short_name": "R2",
+      "name": "Garlic Shrimp",
+      "description": "garlic shrimp with a special touch of the house, plaintain chips and pop corn.",
+      "price_small": "",
+      "price_large": 9.63,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 915,
+      "short_name": "R3",
+      "name": "Breaded Shrimps",
+      "description": "crispy breaded shrimps, rice with Golf sauce, fried green plantains, salad, plaintain chips and pop corn.",
+      "price_small": "",
+      "price_large": 8.96,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 916,
+      "short_name": "R4",
+      "name": "Special Mixed Rice",
+      "description": "Rice with shrimps, fish, squids, shells, fried green plantains or fried ramp banana, plaintain chips and pop corn.",
+      "price_small": "",
+      "price_large": 9.63,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 917,
+      "short_name": "R5",
+      "name": "Fried Fish Fillet",
+      "description": "fish fillet with rice, lentil stew, fried green plantains, salad, plaintain chips and pop corn.",
+      "price_small": "",
+      "price_large": 7.62,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 918,
+      "short_name": "R6",
+      "name": "Seafood Rice",
+      "description": "Rice with shrimps, fish, squids, shells, clams, mussels and crab, fried green plantains or fried ramp banana, plaintain chips and pop corn.",
+      "price_small": "",
+      "price_large": 10.75,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    },
+    {
+      "id": 919,
+      "short_name": "R7",
+      "name": "Jumbo Whole Fish",
+      "description": "jumbo shole fish (2 pounds) with rice, lentil stew and fried green plantains.",
+      "price_small": "",
+      "price_large": 10.98,
+      "small_portion_name": "",
+      "large_portion_name": ""
+    }
+  ],
+  "category": {
+    "short_name": "R",
+    "name": "Rices",
+    "special_instructions": ""
+  }
+}
