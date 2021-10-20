@@ -83,25 +83,29 @@ footer {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #f3723a;
+  /* color: #f3723a; */
+  color: #fee101;
   text-align: center;
   text-decoration: none;
   padding: 10px;
 }
 #nav-list a:hover {
-  background: #e7e7e7;
+  /* background: #e7e7e7; */
+  background: #c9450c;
 }
 #phone a:hover span {
-  background: #e7e7e7;
+  /* background: #e7e7e7; */
+  background: #c9450c;
 }
 #nav-list a span {
   font-size: 1.8em;
 }
-#navHomeButton .active {
-  background: #e7e7e7;
-}
-#navMenuButton .active {
-  background: #e7e7e7;
+#navHomeButton .active,
+#navMenuButton .active,
+#navLocationButton .active,
+#navInfoButton .active {
+  /* background: #e7e7e7; */
+  background: #c9450c;
 }
 /* End Nav Menu List */
 
@@ -146,9 +150,13 @@ footer {
   font-size: 1.3em;
 }
 #address p {
-  color: #fee101;
+  /* color: #fee101; */
+  color: #fff;
   font-size: 0.8em;
   line-height: 1.8;
+}
+#address a {
+  color: #fee101;
 }
 #testimonials {
   font-style: italic;
@@ -171,7 +179,8 @@ footer {
 
 #menu-tile,
 #specials-tile,
-#map-tile {
+#map-tile,
+#googlemap-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -191,6 +200,11 @@ footer {
 }
 #specials-tile {
   background: url("../images/specials-tile.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#map-tile {
+  background: url("../images/map-tile.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }

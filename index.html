@@ -56,16 +56,16 @@
                 <span class="glyphicon glyphicon-cutlery"></span><br class="d-none d-md-block"> 
               Menu</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <span class="glyphicon glyphicon-info-sign"></span><br class="d-none d-md-block"> 
-              About</a>
+            <li id="navLocationButton" class="nav-item">
+              <a id="aLocationButton" class="nav-link" href="#" onclick="$dc.loadMenuLocations();">
+                <span class="glyphicon glyphicon-map-marker"></span><br class="d-none d-md-block"> 
+              Locations</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <span class="glyphicon glyphicon-certificate"></span><br class="d-none d-md-block"> 
-              Awards</a>
-            </li >
+            <li id="navInfoButton" class="nav-item">
+              <a id="aInfoButton" class="nav-link me-3" href="#" onclick="$dc.loadMenuInfo();">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="d-none d-md-block"> 
+              Info</a>
+            </li>
             <!-- Phone >= sm devices  -->
             <li id="phone" class="nav-item d-none d-md-block">
               <a class="nav-link" href="tel:02-224-7007">
@@ -113,9 +113,13 @@
         </section>
         <section id="address" class="col-md-4">
           <span>Address:</span><br>
-          7105 Reisterstown Road<br>
-          Baltimore, MD 21215
-          <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+          <a href="#" onclick="$dc.loadMenuLocations('La Carolina');">La Carolina</a>, <a href="#" onclick="$dc.loadMenuLocations('Plaza de Toros');">Plaza de Toros</a>, 
+          <a href="#" onclick="$dc.loadMenuLocations('La Magdalena');">La Magdalena</a>, <a href="#" onclick="$dc.loadMenuLocations('San Rafael');">San Rafael</a>,
+          <a href="#" onclick="$dc.loadMenuLocations('Cotocollao');">Cotocollao</a>, <a href="#" onclick="$dc.loadMenuLocations('El Recreo');">El Recreo</a>, 
+          <a href="#" onclick="$dc.loadMenuLocations('Quicentro Sur');">Quicentro Sur</a>, <a href="#" onclick="$dc.loadMenuLocations('San Luis');">San Luis</a>,
+          <a href="#" onclick="$dc.loadMenuLocations('Laguna Mall');">Laguna Mall</a>, <a href="#" onclick="$dc.loadMenuLocations('Mall de los Andes');">Mall de los Andes</a>, 
+          <a href="#" onclick="$dc.loadMenuLocations('Mall El Jardin');">Mall El Jardin</a>.
+          <p>* Delivery area within 3-4 miles</p>
           <hr class="mx-auto d-block d-md-none">
         </section>
         <section id="testimonials" class="col-md-4">

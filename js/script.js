@@ -27,6 +27,12 @@ var menuItemsUrl =
 var menuItemsTitleHtml = "snippets/menu-items-title.html";
 var menuItemHtml = "snippets/menu-item.html";
 
+var allLocationsUrl = "snippets/locations.json";
+var locationsTitleHtml = "snippets/locations-title-snippet.html";
+var locationsHtml = "snippets/locations-snippet.html";
+
+var infoHtml = "snippets/info-snippet.html";
+
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
   var targetElem = document.querySelector(selector);
@@ -55,6 +61,11 @@ var switchMenuToActive = () => {
   var classes = document.querySelector("#aHomeButton").className;
   classes = classes.replace(new RegExp("active", "g"), "");
   document.querySelector("#aHomeButton").className = classes;
+  // Remove 'active' from Location button
+  var classes = document.querySelector("#aLocationButton").className;
+  classes = classes.replace(new RegExp("active", "g"), "");
+  document.querySelector("#aLocationButton").className = classes;
+  removeActive("aInfoButton");
 
   // Add 'active' to menu button if not already there
   classes = document.querySelector("#aMenuButton").className;
@@ -305,6 +316,123 @@ function insertItemPortionName(html,
   return html;
 }
 
+
+// Load the locations view
+dc.loadMenuLocations = function (posId) {
+  dc.posId = posId;
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    allLocationsUrl,
+    buildAndShowLocationsHTML);
+}; 
+
+
+// Builds HTML for the locations page based on the data
+// from the server
+function buildAndShowLocationsHTML (locations) {
+  // Load title snippet of categories page
+  $ajaxUtils.sendGetRequest(
+    locationsTitleHtml,
+    (locationsTitleHtml) => {
+      // Retrieve single category snippet
+      $ajaxUtils.sendGetRequest(
+        locationsHtml,
+        (locationsHtml) => {
+          // Switch CSS class active to location button
+          switchLocationToActive();
+
+          var locationsViewHtml = buildLocationsViewHtml(locations,
+            locationsTitleHtml,
+            locationsHtml);
+          insertHtml("#main-content", locationsViewHtml);
+          dc.posId ? document.getElementById(dc.posId).scrollIntoView() : null;
+        },
+        false);
+    },
+    false);
+}
+
+// Using locations data and snippets html
+// build locations view HTML to be inserted into page
+function buildLocationsViewHtml(locations,
+  locationsTitleHtml,
+  locationsHtml) {
+
+var finalHtml = locationsTitleHtml;
+finalHtml += "<section class='row'>";
+
+// Loop over locations
+for (var i = 0; i < locations.length; i++) {
+// Insert locations values
+  var html = locationsHtml;
+  html = insertProperty(html, "location", locations[i].location);
+  html = insertProperty(html, "address", locations[i].address);
+  html = insertProperty(html, "phone_btn", locations[i].phone_btn);
+  html = insertProperty(html, "phone", locations[i].phone);
+  html = insertProperty(html, "url", locations[i].url);
+  html = insertProperty(html, "map", locations[i].map);
+  finalHtml += html;
+}
+
+finalHtml += "</section>";
+return finalHtml;
+}
+
+// Remove the class 'active' from home and switch to Location button
+var switchLocationToActive = () => {
+  // Remove 'active' from home button
+  var classes = document.querySelector("#aHomeButton").className;
+  classes = classes.replace(new RegExp("active", "g"), "");
+  document.querySelector("#aHomeButton").className = classes;
+  // Remove 'active' from menu button
+  var classes = document.querySelector("#aMenuButton").className;
+  classes = classes.replace(new RegExp("active", "g"), "");
+  document.querySelector("#aMenuButton").className = classes;
+  removeActive("aInfoButton");
+
+  // Add 'active' to location button if not already there
+  classes = document.querySelector("#aLocationButton").className;
+  if (classes.indexOf("active") === -1) {
+    classes += " active";
+    document.querySelector("#aLocationButton").className = classes;
+  }
+};
+
+var removeActiveAll = () => {
+  removeActive("aHomeButton");
+  removeActive("aMenuButton");
+  removeActive("aLocationButton");
+  removeActive("aInfoButton");
+}
+
+var removeActive = (buttonName) => {
+  // Remove 'active' from home button
+  var classes = document.querySelector(`#${buttonName}`).className;
+  classes = classes.replace(new RegExp("active", "g"), "");
+  document.querySelector(`#${buttonName}`).className = classes;
+}
+
+var switchToActive = (buttonName) => {
+  // Switch to Active a Button
+  classes = document.querySelector(`#${buttonName}`).className;
+  if (classes.indexOf("active") === -1) {
+    classes += " active";
+    document.querySelector(`#${buttonName}`).className = classes;
+  }
+}
+
+// Load the locations view
+dc.loadMenuInfo = function () {
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    infoHtml,
+   (infoHtml) => {
+      removeActiveAll();
+      switchToActive("aInfoButton");
+      insertHtml("#main-content", infoHtml);
+    },
+    false);
+}; 
 
 global.$dc = dc;
 
