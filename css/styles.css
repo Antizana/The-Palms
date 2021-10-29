@@ -70,7 +70,7 @@ footer {
 
 /* Nav Menu List */
 #collapsable-nav {
-  justify-content: right;
+  justify-content: flex-end;
 }
 #navHomeButton hr {
   margin-left: -150px;
